@@ -19,3 +19,9 @@ body{
     cursor: pointer;
 }
 
+h2{
+    color: #2c3a47;
+    font-size: 50px;
+    font-weight: 500;
+}
+
