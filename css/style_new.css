@@ -16,3 +16,36 @@
     font-family: 'Poppins', 'sans-serif';
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    gap: 10px;
+}
+
+p{
+    color: rgb(255, 208, 0);
+}
+
+p span{
+    color: rgb(252, 92, 0);
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    font-family: digital-7;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+}
+
