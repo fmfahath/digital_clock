@@ -26,30 +26,41 @@ body{
     align-items: center;
     user-select: none;
     cursor: pointer;
+    gap: 50px;
 }
 
 h2{
-    color: #b2bec3;
+    color: #55E6C1;
     font-size: 50px;
     font-weight: 500;
+
 }
 
 .fram{
     width: 600px;
     height: 300px;
     background-color: black;
-    border: 50px solid #eec304;
+    border: 50px solid #55E6C1;
     border-radius: 20px;
     color: white;
     font-size: 80px;
     text-align: center;
-    line-height: 200px;
+    line-height: 200px; 
 }
 
 .clock{
     font-family: digital-7; 
     color: white;
     text-shadow: 0 0 20px var(--light0color);
+    position: relative;
+}
+
+.clock::after{
+    content: attr(data-text);
+    position: absolute;
+    left: 55px;
+    top: 0;
+    filter: blur(20px);
 }
 
 
