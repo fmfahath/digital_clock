@@ -19,7 +19,9 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: #0b3241;
+    /* background-color: #0b3241; */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +32,7 @@ body{
 }
 
 h2{
-    color: #08e9cb;
+    color: #0bc5ac;
     font-size: 50px;
     font-weight: 500;
 
@@ -39,8 +41,8 @@ h2{
 .fram{
     width: 600px;
     height: 300px;
-    background-color: rgb(0, 0, 0);
-    border: 30px solid #08e9cb;
+    /* background-color: rgba(0, 0, 0,1); */
+    border: 30px solid #0bc5ac;
     border-radius: 20px;
     color: white;
     font-size: 80px;
