@@ -27,12 +27,15 @@ function display_clock(){
     sec = sec < 10 ? "0" + sec : sec;
 
     //display the values
+    hrs = hrs.toString();
     hh[0].innerHTML = hrs[0];
     hh[1].innerHTML = hrs[1];
 
+    min = min.toString();
     mm[0].innerHTML = min[0];
     mm[1].innerHTML = min[1];
     
+    sec = sec.toString();
     ss[0].innerHTML = sec[0];
     ss[1].innerHTML = sec[1];
 
